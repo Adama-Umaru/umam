@@ -1,0 +1,693 @@
+/* here is global selector, remove underline and dots */
+body{
+  overflow-x: hidden;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+}
+/* global selector ends here */
+
+/* here is my header menu converted to flex */
+.header{
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+ 
+  }
+  
+  /* here is my logo */
+  
+  .mylogo img{
+    width: 100px;
+    margin: 20px 20px;
+  
+  }
+  /* mylogo ends here  */
+  /* here begins the container flex */
+
+/* my menu bar of ul li */
+
+ul{
+  display: flex;
+  margin-right: 3%;
+}
+
+.umam{
+  display: none;
+}
+
+.fa-xmrk{
+  display: none;
+}
+
+
+li{
+  padding: 30px 10px;
+  font-size: 16px;
+}
+
+li a{
+  color: black;
+}
+ .btn-btn{
+  background-color: blue;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+ }
+
+ .btn-btn:hover{
+  background-color: aquamarine;
+  transition: 2s;
+ }
+
+ .btn{
+  background-color: blue;
+  padding: 10px 30px;
+  border-radius: 12px;
+  color: white;
+  margin-left: 150px;
+  position: absolute;
+  top: 3%;
+  
+   
+ }
+ .btn:hover{
+  background-color: blanchedalmond;
+  transition: 2s;
+  color: red;
+ }
+
+ .fa-angle-dow{
+  color: white;
+ }
+ 
+/* ul menu ends here */
+
+/* homepage-container begins */
+
+.hompage-container{
+  width: 100%;
+ 
+}
+
+.imag img{
+  background-color:rgba(250, 235, 215, 0.205);
+}
+.homepage-flex{
+  display: flex;
+  align-items: center;
+  margin-left: 120px;;
+}
+
+.homepage-flex img{
+  width: 90%;
+  padding-left: 120px;
+
+}
+
+.homepage-flex h1{
+  font-size: 70px;
+  margin-bottom: 15px;
+
+}
+
+.homepage-flex p{
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+
+.button{
+  background-color: blue;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid blue;
+}
+
+.button:hover{
+  background-color: bisque;
+  color: black;
+  transition: 2s;
+}
+
+.mybtn{
+  font-size: 20px;
+  border:2px solid rgb(42, 35, 255);
+  padding: 10px 30px;
+  border-radius: 5px;
+  
+}
+
+.mybtn:hover{
+  background-color: pink;
+  transition: 1.5s;
+}
+
+/* homepage-container ends */
+
+/* skyline-container begins here */
+
+.skyline-container{
+  width: 80%;
+  height: 90%;
+  margin-bottom: 25px;
+ margin-left: 10%;
+ text-align: center;
+}
+
+.skyline-container h1{
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.skyline-flex{
+  display: flex;
+  margin:25px;
+  align-items: center;
+  justify-content: space-around;
+}
+.skyline-items h2{
+  padding-bottom: 10px;
+}
+
+/* skyline-container ends here */
+
+/* mastering skills starts here*/
+
+.masterskills{
+  background-image: linear-gradient( rgba(19, 20, 22, 0.384), rgba(41, 37, 40, 0.534)),
+  url(../images/bottom_bkgd2.png); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 40vh;
+  margin-left: 9%;
+ 
+}
+.stitle{
+  width: 100%;
+  position: absolute;
+  top: 135%;
+  margin-left: 30%;
+}
+
+.stitle h1{
+  font-size: 35px;
+  color: white;
+  padding-bottom: 35px;
+
+}
+.skilbtn{
+  margin-left: 6%;
+  border: 3px solid white;
+  color: blue;
+  background: white;
+  padding: 10px 60px;
+  border-radius: 2px;
+  
+}  
+
+.skilbtn:hover{
+  background-color: rgba(103, 103, 241, 0.675);
+  transition: 1.5s;
+  color: whitesmoke;
+}
+.spn{
+  margin-left: 10%;
+ 
+}   
+
+  
+
+/* students-container starts here */
+
+.Students-container{
+  margin-top: 95px;
+  width: 100%;
+  margin-left: 20%;
+}
+
+ .Students-flex{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.students-items-learner2 p{
+  padding-top: 25px;
+  font-size: 17px;
+  padding-bottom: 35px;
+
+}
+
+.students-items-learner2 h2{
+  margin-top: 25px;
+  padding-bottom: 15px;
+  font-size: 34px;
+ 
+}
+.students-items-learner2 h1{
+  opacity: 25%;
+  margin-top: 15px;
+  font-size: 21px;
+}
+
+.span{
+  background-color: rgb(181, 233, 233);
+}
+
+.stdbtn{
+  font-size: 25px;
+  background-color: blue;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+ 
+} 
+
+.stdbtn:hover{
+  background-color: bisque;
+  color: black;
+  transition: 1.5s;
+
+}
+/* 
+plan and innovate starts here */
+
+.innovators-container{
+  width: 90%;
+  margin-left: 7%;
+}
+
+.innovate-flex{
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.innovators-items1{
+  background-color: goldenrod;
+  width: 80%;
+  padding-top: 50px;
+  padding-left: 40px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+ .innovators-items1 h1{
+  padding-bottom: 15px;
+  text-align: justify;
+  color: white;
+ 
+}
+
+ .innovate-flex h1{
+  text-align: left;
+  margin-bottom: 9px;
+  margin-top: 9px;
+  color: white;  
+  font-size: 15px;
+}
+
+.innovate-flex p{
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: white;  
+  font-size: 15px;  
+}
+.innovate-flex a{
+  border: 2px solid;
+  border-color: white;
+  margin-bottom: 20px;
+  color: white;
+  padding: 6.5px 21.5px;
+  font-size: 10px;
+} 
+
+.innovate-flex a:hover{
+  background-color: red;
+  color: rgba(54, 54, 226, 0.787);
+  transition: 1.5s;
+}
+
+.innovators-items2{
+  background-color: black;
+  width: 80%;
+  padding-top: 50px;
+  padding-left: 40px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  
+}
+
+.fa-sharp{
+padding: 4px;
+}
+
+/* cature section ends here */
+.capture-flex{
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+ 
+}
+.capture-items img{
+  width: 550px;
+}
+.capture-items h1{
+  font-size: 45px;
+  padding-bottom: 45px;
+}
+
+.capture-items p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.capture-items a{
+  background-color: blue;
+  padding: 10px 75px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 39px;
+  font-size: 20px;
+}
+
+.capture-items a:hover{
+background-color: aqua;
+color: pink;
+transition: 1.5s;
+
+
+}
+.capture-items{
+  margin-left: 85px;
+}
+
+/* footer begins here */
+
+
+.footer-container{
+  width: 100%;
+  background-color: rgb(61, 59, 59);
+  height: 350px;
+  
+}
+
+.footer-flex{
+ 
+  display: flex;
+  padding-top: 20px;
+}
+
+
+.footer-item{
+  margin: 10px 10px;
+  padding-left:4.5%;
+
+
+}
+
+.footer-item h1{
+  color: rgb(95, 95, 238);
+  font-size: 25px;
+  padding-bottom: 10px;
+  
+
+}
+.footer-item p{
+  font-size: 18px;
+  color: white;
+
+}
+
+/*footer ends here*/
+
+@media screen and (max-width:950px) {
+
+  /* header and nav bar begins here */
+  .container{
+    width: 100%;
+  }
+  .header{
+    flex-direction: column;
+    
+  }
+
+  .btn{
+position: absolute;
+top: 5%;
+right: 55%;
+
+  }
+
+  .btn-btn{
+    padding: 10px 20px;
+  }
+
+  
+.header a{
+  margin-left: 11%;
+  margin-top: -3%;
+}
+
+ul{
+  display: block;
+  background-color: rgba(161, 98, 237, 0.818);
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  margin-left: 73%;
+  padding-top: 15px;
+  z-index: 2;
+  right:-250px ;
+  transition: 2s;
+}
+  ul li{
+   
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+.umam{
+  display: block;
+  font-size: 30px;
+  color: rgb(8, 0, 255);
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.fa-xmrk{
+  display: block;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 3%;
+  right: 85%;
+  cursor: pointer;
+  transition: 2s;
+}
+
+/* 
+homepage begins here */
+
+.homepage-container{
+  width: 100%;
+  margin-top: 30px;
+}
+  .homepage-flex{
+    display: block;
+    align-items: center;
+    margin-right: 0;
+  
+  }
+   
+  .homepage-item1 img{
+  width: 500px;
+  margin-left: -20%;
+   
+   
+  }
+    .homepage-item h1{
+    font-size: 35px;
+    margin-bottom: 3px;
+    padding-bottom: 20px;
+  
+  }
+
+  .button{
+    padding: 10px 15px;
+  }
+  
+  .homepage-flex p{
+    font-size: 20px;
+    padding-bottom: 35px;
+  }
+
+/* 
+skyline begins here */
+
+  .skyline-container{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: -3%;
+  }
+
+  .skyline-flex{
+    display: block;
+    margin-top: 10px;
+    
+    
+  }
+
+  .skyline-container h1{
+    font-size: 40px;
+  }
+.skyline-items p{
+font-size: 20px;
+}
+/*masterskills starts here*/
+  .masterskills{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .stitle{
+    top: 225%;
+    margin-left: 13;
+  }
+  
+  .stitle h1{
+    font-size: 23px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  .spn{
+    margin-left: 18.5%;
+
+  }
+  .skilbtn{
+    margin-left: 13.5%;
+    padding: 2px 10px;
+    font-size: 20px;
+
+  }
+
+
+  /* students-container starts here */
+
+  .Students-flex{
+    display: block;
+  }
+
+  .students-items-learner1 img{
+    margin: 7% 0%;
+    width: 70%;
+  }
+  .students-items-learner2 h1{
+
+  padding-bottom: 20px;
+  }
+/* 
+plan and innovate starts here */
+
+.innovate-flex{
+  display: block;
+}
+
+.innovate-flex h1{
+  text-align: center;
+}
+
+.innovate-flex p{
+ text-align: center;
+}
+
+.innovate-flex a{
+  margin-left: 37%;
+ }
+
+.innovators-items img{
+  border-radius: 5px;
+  width: 82%;
+}
+
+.innovators-items1{
+  width: 82%;
+  height: 40vh;
+
+}
+
+
+.innovators-items2{
+  width: 82%;
+  height: 40vh;
+}
+
+
+/* cature section ends here */
+
+.captyoung{
+  margin-top: 12%;
+  margin-bottom: 9%;
+}
+
+
+.capture-flex{
+  display: block;
+}
+
+.capture-items img{
+  width: 80%;
+  margin-bottom: 9%;
+  
+}
+
+.capture-items p{
+  padding-bottom: 40px;
+}
+
+.capture-items a{
+  padding: 10px 30px;
+}
+
+/* footer begins here */
+
+.footer-container{
+  width: 100%;
+  height: 190%;
+  text-align: justify;
+}
+.footer-flex{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+
+
+
+
+}
